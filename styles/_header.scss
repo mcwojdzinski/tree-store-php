@@ -1,0 +1,21 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        &__picture{
+            width: 20%;
+        }
+
+        &__text{
+            color: $primaryColor;
+            font-family: $primaryFont;
+            font-size: 2em;
+        }
+    }
+}
