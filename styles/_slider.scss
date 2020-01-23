@@ -3,12 +3,6 @@
     flex-direction: column;
     align-items: center;
 
-    &__picture {
-        width: 260px;
-        height: 240px;
-        margin-top: 10vh;
-    }
-
     &__button {
         margin-top: 5vh;
         width: 150px;
@@ -20,6 +14,26 @@
     }
 
     .slider {
+        display: flex;
+        flex-direction: row;
+
+        &__picture {
+            width: 260px;
+            height: 240px;
+            margin-top: 10vh;
+        }
+
+        &__arrow{
+            display: flex;
+            margin-top: 10vh;
+            align-items: center;
+            padding: 15px;
+            font-size: 25px;
+            color: $primaryColor;
+        }
+    }
+
+    .switcher {
         display: flex;
         width: 40%;
         justify-content: space-between;

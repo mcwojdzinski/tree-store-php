@@ -21,12 +21,20 @@
     <nav class="nav">
     </nav>
     <main class="content">
-        <img src="images/bonsai.jpg" alt="bonsai tree" class="content__picture">
         <div class="slider">
-            <div class="slider__dot"></div>
-            <div class="slider__dot"></div>
-            <div class="slider__dot"></div>
-            <div class="slider__dot"></div>
+            <div class="slider__arrow">
+                <span class="slider__arrow-left"><</span>
+            </div>
+            <img src="images/bonsai.jpg" alt="bonsai tree" class="slider__picture">
+            <div class="slider__arrow">
+                <span class="slider__arrow-right">></span>
+            </div>
+        </div>
+        <div class="switcher">
+            <div class="switcher__dot"></div>
+            <div class="switcher__dot"></div>
+            <div class="switcher__dot"></div>
+            <div class="switcher__dot"></div>
         </div>
         <button class="content__button">more trees</button>
     </main>
