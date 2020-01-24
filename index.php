@@ -15,14 +15,28 @@
             <h1 class="logo__text">Tree-Store</h1>
         </div>
         <div class="hamburger">
-            <img src="images/menu.svg" alt="hamburger logo">
+            <img src="images/hamburger.png" class="hamburger__icon" alt="hamburger-menu">
         </div>
     </header>
-    <nav class="navigation">
-
+    <nav class="nav">
     </nav>
-    <main class="main">
-    
+    <main class="content">
+        <div class="slider">
+            <div class="slider__arrow">
+                <span class="slider__arrow-left"><</span>
+            </div>
+            <img src="images/bonsai.jpg" alt="bonsai tree" class="slider__picture">
+            <div class="slider__arrow">
+                <span class="slider__arrow-right">></span>
+            </div>
+        </div>
+        <div class="switcher">
+            <div class="switcher__dot"></div>
+            <div class="switcher__dot"></div>
+            <div class="switcher__dot"></div>
+            <div class="switcher__dot"></div>
+        </div>
+        <button class="content__button">more trees</button>
     </main>
     <section class="section">
         <article class="article"></article>

@@ -1,0 +1,49 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__button {
+        margin-top: 5vh;
+        width: 150px;
+        height: 50px;
+        border: none;
+        background-color: $fontColor;
+        font-size: 20px;
+        color: $primaryColor;
+    }
+
+    .slider {
+        display: flex;
+        flex-direction: row;
+
+        &__picture {
+            width: 260px;
+            height: 240px;
+            margin-top: 10vh;
+        }
+
+        &__arrow{
+            display: flex;
+            margin-top: 10vh;
+            align-items: center;
+            padding: 15px;
+            font-size: 25px;
+            color: $primaryColor;
+        }
+    }
+
+    .switcher {
+        display: flex;
+        width: 40%;
+        justify-content: space-between;
+        margin-top: 5vh;
+
+        &__dot {
+            width: 15px;
+            height: 15px;
+            background-color: $primaryColor;
+            border-radius: 50%;
+        }
+    }
+}
