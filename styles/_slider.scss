@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: calc(8vh + 20px);
 
     &__button {
         margin-top: 5vh;
@@ -18,16 +19,13 @@
         flex-direction: row;
 
         &__picture {
-            width: 260px;
+            width: 240px;
             height: 240px;
-            margin-top: 10vh;
         }
 
         &__arrow{
             display: flex;
-            margin-top: 10vh;
             align-items: center;
-            padding: 15px;
             font-size: 25px;
             color: $primaryColor;
         }

@@ -39,9 +39,18 @@
         <button class="content__button">more trees</button>
     </main>
     <section class="section">
-        <article class="article"></article>
-        <article class="article"></article>
-        <article class="article"></article>
+        <article class="article">
+            <a href="#" class="article__title">Article1</a>
+            <p class="article__content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae cum suscipit officiis nisi quibusdam? Animi.</p>
+        </article>
+        <article class="article">
+            <a href="#" class="article__title">Article1</a>
+            <p class="article__content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae cum suscipit officiis nisi quibusdam? Animi.</p>
+        </article>
+        <article class="article">
+            <a href="#" class="article__title">Article1</a>
+            <p class="article__content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae cum suscipit officiis nisi quibusdam? Animi.</p>
+        </article>
     </section>
     <footer class="footer">
 </body>

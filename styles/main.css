@@ -44,7 +44,8 @@ table {
   position: fixed;
   top: 0;
   left: 0;
-  height: 10vh;
+  height: 8vh;
+  background-color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -58,7 +59,8 @@ table {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 20px;
+  padding: 10px 20px;
+  border-bottom: 3px solid #97FF85;
 }
 
 .header .logo {
@@ -85,6 +87,10 @@ table {
   padding: 5px;
 }
 
+.header .hamburger {
+  width: 20%;
+}
+
 .header .hamburger__icon {
   width: 35px;
   height: 35px;
@@ -92,10 +98,10 @@ table {
 
 .nav {
   display: block;
-  width: 100%;
+  width: 360px;
   height: 10vh;
   background-color: #2B801C;
-  margin-top: 15vh;
+  margin-top: calc(8vh + 20px);
 }
 
 .content {
@@ -109,6 +115,7 @@ table {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: calc(8vh + 20px);
 }
 
 .content__button {
@@ -132,20 +139,17 @@ table {
 }
 
 .content .slider__picture {
-  width: 260px;
+  width: 240px;
   height: 240px;
-  margin-top: 10vh;
 }
 
 .content .slider__arrow {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 10vh;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 15px;
   font-size: 25px;
   color: #2B801C;
 }
