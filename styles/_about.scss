@@ -1,0 +1,20 @@
+.content__header{
+    color: $primaryColor;
+    font-size: 35px;
+    padding: 10px;
+    margin-top: 10px;   
+}
+
+.content__description{
+    color: $primaryColor;
+    font-size: 25px;
+    padding: 20px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+.history__list li{
+    padding: 7px;
+    color: $primaryColor;
+    font-size: 20px;
+}
