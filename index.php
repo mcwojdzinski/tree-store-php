@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
     <link href="styles/main.css" rel="stylesheet" type="text/css">
+    <link href="fontawesome-free/css/all.css">
     <title>Tree Store</title>
 </head>
 <body>
@@ -23,11 +24,11 @@
     <main class="content">
         <div class="slider">
             <div class="slider__arrow">
-                <span class="slider__arrow-left"><</span>
+                <img src="images/backk.png" alt="left arrow" class="left canvas">
             </div>
             <img src="images/bonsai.jpg" alt="bonsai tree" class="slider__picture">
             <div class="slider__arrow">
-                <span class="slider__arrow-right">></span>
+                <img src="images/next.png" alt="left arrow" class="right canvas">
             </div>
         </div>
         <div class="switcher">
@@ -53,5 +54,37 @@
         </article>
     </section>
     <footer class="footer">
+        <div class="info">
+            <div class="info__row">
+                <ul class="list">
+                    <l1 class="list__element">Main</l1>
+                    <l1 class="list__element">Products</l1>
+                </ul>
+            </div>
+            <div class="info__row">
+                <ul class="list">
+                    <li class="list__element">About us</li>
+                    <li class="list__element">Contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="media">
+            <div class="media__element">
+                <img src="images/instagram.png" class="picture" alt="instagram">
+            </div>
+            <div class="media__element">
+                <img src="images/snapchat.png" alt="snapchat" class="picture">
+            </div>
+            <div class="media__element">
+                <img src="images/messenger.png" alt="messeneger" class="picture">
+            </div>
+            <div class="media__element">
+                <img src="images/twitter.png" alt="twitter" class="picture">
+            </div>
+            <div class="media__element">
+                <img src="images/github.png" alt="github" class="picture">
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
