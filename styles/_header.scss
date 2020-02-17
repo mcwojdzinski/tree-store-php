@@ -2,17 +2,20 @@
     position: fixed;
     top: 0;
     left: 0;
-    height: 10vh;
+    height: 8vh;
+    background-color: #fff;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 10px 20px;
+    border-bottom: 3px solid $fontColor;
 
     .logo{
         display: flex;
         flex-direction: row;
         align-items: center;
+
         
         &__picture{
             width: 20%;
@@ -27,6 +30,8 @@
     }
 
     .hamburger{
+
+        width: 15%;
         
         &__icon {
             width: 35px;
@@ -34,3 +39,26 @@
         }
     }
 }
+
+@media (min-width: 768px) {
+    .header {
+        width: 100%;
+        border-bottom: 5px solid $fontColor;
+
+        .logo {
+
+            &__text {
+                font-size: 35px;
+            }
+        }
+
+        .hamburger {
+
+            &__icon {
+            width: 50px;
+            height: 50px;
+            }
+        }
+    }
+}
+
