@@ -2,6 +2,11 @@
     font-size: 20px;
     margin-bottom: 10px;
     color: $primaryColor;
+
+
+    @media (min-width: 1024px){
+        font-size: 30px;
+    }
 }
 
 
@@ -12,9 +17,15 @@
     justify-items: center;
     align-items: center;
 
+    margin-bottom: 200px;
+
     &__element{
         width: 80%;
-        padding: 10px;
+        padding: 15px;
+
+        @media (min-width: 1024px){
+            width: 50%;
+        }
 
         label{
             display: flex;
@@ -23,11 +34,19 @@
             font-size: 16px;
             color: $primaryColor;
 
+            @media (min-width: 1024px) {
+                font-size: 23px;
+            }
+
 
             input{
                 padding: 6px;
                 border: 2px solid darkgreen;
                 border-radius: 10px;
+
+                @media (min-width: 1024px){
+                    width: 30%;
+                }
 
                 &:focus{
                     outline: none;
@@ -49,6 +68,11 @@
         font-weight: 700;
         border-radius: 10px;
         transition: 0.3s linear;
+
+        @media (min-width: 1024px){
+            width: 20% !important;
+            margin-top: 60px;
+        }
 
         &:hover{
             background-color: darkgreen;

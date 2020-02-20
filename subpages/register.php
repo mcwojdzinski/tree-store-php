@@ -23,7 +23,7 @@
     </nav>
     <main class="content">
         <h3 class="register__header">Register</h3>
-        <form method="GET" class="register">
+        <form method="POST" class="register">
             <div class="register__element">
                 <label for="login">Login:
                 <input type="text" name="login" id="login" required>
