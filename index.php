@@ -16,10 +16,39 @@
             <h1 class="logo__text">Tree-Store</h1>
         </div>
         <div class="hamburger">
+            <div class="hamburger__menu">
+                <ul class="list">
+                    <ul class="list">
+                        <li class="list__element"><a href="#">Main</a></li>
+                        <li class="list__element"><a href="#">Products</a></li>
+                        <li class="list__element"><a href="#">About us</a></li>
+                        <li class="list__element"><a href="#">Contact</a></li>
+                        <li class="list__element"><a href="#">Socials</a></li>
+                    </ul>   
+                </ul>
+            </div>
+            <script src="hamburgerOpen.js"></script>
             <img src="images/hamburger.png" class="hamburger__icon" alt="hamburger-menu">
+        </div>
+        <div class="form">
+            <div class="form__login">
+                <a href="subpages/login.php"><p>Log in</p></a>
+            </div>
+            <div class="form__register">
+                <a href="subpages/register.php"><p>Register</p></a>
+            </div>
+            <img src="images/user.png" alt="icon of user" class="form__icon">
         </div>
     </header>
     <nav class="nav">
+        <div class="nav__row">
+            <ul class="list">
+                <li class="list__element"><a href="#">Main</a></li>
+                <li class="list__element"><a href="#">Products</a></li>
+                <li class="list__element"><a href="#">About us</a></li>
+                <li class="list__element"><a href="#">Contact</a></li>
+            </ul>
+        </div>
     </nav>
     <main class="content">
         <div class="slider">
@@ -37,20 +66,26 @@
             <div class="switcher__dot"></div>
             <div class="switcher__dot"></div>
         </div>
-        <button class="content__button">more trees</button>
+        <div class="textButton">
+            <h1 class="textButton__text">see more offers</h1>
+            <button class="textButton__button"><span><a href="subpages/">Here</a></span></button>
+        </div>
     </main>
     <section class="section">
         <article class="article">
             <a href="#" class="article__title">Article1</a>
             <p class="article__content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae cum suscipit officiis nisi quibusdam? Animi.</p>
+            <button class="article__button">read more</button>
         </article>
         <article class="article">
             <a href="#" class="article__title">Article1</a>
             <p class="article__content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae cum suscipit officiis nisi quibusdam? Animi.</p>
+            <button class="article__button">read more</button>
         </article>
         <article class="article">
             <a href="#" class="article__title">Article1</a>
             <p class="article__content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae cum suscipit officiis nisi quibusdam? Animi.</p>
+            <button class="article__button">read more</button>
         </article>
     </section>
     <footer class="footer">
@@ -70,21 +105,22 @@
         </div>
         <div class="media">
             <div class="media__element">
-                <img src="images/instagram.png" class="picture" alt="instagram">
+                <a href="#"><img src="images/instagram.png" alt="instagram" class="picture"></a>
             </div>
             <div class="media__element">
-                <img src="images/snapchat.png" alt="snapchat" class="picture">
+                <a href="#"><img src="images/snapchat.png" alt="snapchat" class="picture"></a>
             </div>
             <div class="media__element">
-                <img src="images/messenger.png" alt="messeneger" class="picture">
+                <a href="#"><img src="images/messenger.png" alt="messenger" class="picture"></a>
             </div>
             <div class="media__element">
-                <img src="images/twitter.png" alt="twitter" class="picture">
+                <a href="#"><img src="images/twitter.png" alt="twitter" class="picture"></a>
             </div>
             <div class="media__element">
-                <img src="images/github.png" alt="github" class="picture">
+                <a href="#"><img src="images/github.png" alt="github" class="picture"></a> 
             </div>
         </div>
+        <p>All rights reserved &copy 2020 Bartosz Hryniewicz & Matuesz Cwojdzinski</p>
     </footer>
 </body>
 </html>
