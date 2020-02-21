@@ -1,0 +1,13 @@
+.content__wrapper{
+    display: grid;
+    grid-template-columns: 200px auto;
+    column-gap: 30px;
+
+    .filter{
+        display: block;
+        background-color: lightgreen;
+        border: 1px solid $primaryColor;
+        width: 200px;
+        height: 500px;
+    }
+}

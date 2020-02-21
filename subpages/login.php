@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="shortcut icon" type="image/png" href="../images/favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
     <link href="../styles/main.css" rel="stylesheet" type="text/css">
+    <link href="fontawesome-free/css/all.css">
     <title>Tree Store</title>
 </head>
 <body>
@@ -21,20 +22,55 @@
     <nav class="nav">
     </nav>
     <main class="content">
-        <div class="form">
-            <form method="POST" class="register__form">
-                <label for="login" class="form__element"> 
-                    <span class="element__text">Login:</span>  
-                    <input type="text" id="login" name="login" required>
+    <h3 class="register__header">Log in</h3>
+        <form method="POST" class="register">
+            <div class="register__element">
+                <label for="login">Login:
+                <input type="text" name="login" id="login" required>
                 </label>
-                <label for="password" class="form__element"> 
-                    <span class="element__text">Password:</span>  
-                    <input type="password" id="password" name="password" required>
+            </div>
+            <div class="register__element">
+                <label for="password">
+                    Password:
+                    <input type="password" id="password" name="password">
                 </label>
+            </div>
 
-                <button type="submit" class="form__submit">Log In</button>
-        </div>
+            <button type="submit" style="width: 50%;"class="register__button">Log In</button>
+        </form>
     </main>
     <footer class="footer">
+        <div class="info">
+            <div class="info__row">
+                <ul class="list">
+                    <l1 class="list__element">Main</l1>
+                    <l1 class="list__element">Products</l1>
+                </ul>
+            </div>
+            <div class="info__row">
+                <ul class="list">
+                    <li class="list__element">About us</li>
+                    <li class="list__element">Contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="media">
+            <div class="media__element">
+                <img src="../images/instagram.png" class="picture" alt="instagram">
+            </div>
+            <div class="media__element">
+                <img src="../images/snapchat.png" alt="snapchat" class="picture">
+            </div>
+            <div class="media__element">
+                <img src="../images/messenger.png" alt="messeneger" class="picture">
+            </div>
+            <div class="media__element">
+                <img src="../images/twitter.png" alt="twitter" class="picture">
+            </div>
+            <div class="media__element">
+                <img src="../images/github.png" alt="github" class="picture">
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
