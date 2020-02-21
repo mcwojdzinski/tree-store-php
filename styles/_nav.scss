@@ -1,7 +1,83 @@
 .nav {
     display: block;
+    box-sizing: border-box;
     width: 100%;
     height: 10vh;
+    padding: 10px 20px;
     background-color: $primaryColor;
     margin-top: calc(8vh + 20px);
+
+    &__row {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .nav {
+        height: 12vh;
+        margin-top: calc(12vh + 25px);
+    }
+}
+
+@media (min-width: 800px) {
+    .nav {
+        display: flex;
+        box-sizing: border-box;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height: 10vh;
+        margin-top: 13vh;
+        color: $fontColor;
+
+
+        &__row {
+            display: flex;
+            flex-direction: row;
+
+            .list {
+                display: flex;
+                flex-direction: row;
+
+                &__element {
+                    display: flex;
+                    justify-content: center;
+                    width: 80px;
+                    position: relative;
+                    margin: 0 10px;
+
+                    a {
+                        text-decoration: none;
+                        color: $fontColor;
+                    }
+                }
+
+                &__element::after {
+                    content: '';
+                    display: none;
+                    position: absolute;
+                    top: 20px;
+                    left: 0;
+                    height: 2px;
+                    background-color: $fontColor;
+                    width: 80px;
+                }
+
+                &__element:hover::after {
+                    display: block;
+                    animation: addBorderNav 0.3s ease-in both;
+                }
+            }
+        }
+    }
+}
+
+@keyframes addBorderNav {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 100%;
+    }
 }

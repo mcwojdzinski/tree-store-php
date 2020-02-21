@@ -30,25 +30,70 @@
     }
 
     .hamburger{
-
         width: 15%;
         
         &__icon {
             width: 35px;
             height: 35px;
         }
+
+        &__menu {
+            position: absolute;
+            justify-content: center;
+            align-items: center;
+            left: 10vw;
+            width: 80vw;
+            height: 450px;
+            background-color: white;
+            border: 2px solid $primaryColor;
+            border-radius: 10px;
+            display: none;
+            animation: menuUp 0.5s linear both;
+
+            .list {
+                font-family: $primaryFont;
+                color: $primaryColor;
+                padding: 10px;
+
+                &__element {
+                    font-size: 20px;
+                    font-weight: 600;
+                    text-align: center;
+                    margin: 40px 0;
+
+                    a {
+                        text-decoration: none;
+                        color: $primaryColor
+                    }
+                }
+            }
+        }
+
+        .visible {
+            display: flex;
+        }
+
+    }
+
+    .form {
+        display: none;
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 767px) {
     .header {
+
         width: 100%;
+        height: 12vh;
         border-bottom: 5px solid $fontColor;
 
         .logo {
 
+            display: flex;
+            flex-direction: row;
+
             &__text {
-                font-size: 35px;
+                font-size: 40px;
             }
         }
 
@@ -58,7 +103,134 @@
             width: 50px;
             height: 50px;
             }
+
+            &__menu {
+                height: 700px;
+                border-radius: 20px;
+                left: 17.5vw;
+                width: 65vw;
+
+                .list {
+                    padding: 30px;
+
+                    &__element {
+                        font-size: 36px;
+                        margin: 80px 0;
+                    }
+                }
+            }
         }
     }
 }
+
+@media (min-width: 800px) {
+    .header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 13vh;
+        box-sizing: border-box;
+        background-color: #fff;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 40px;
+        // margin: 10px 0 0;
+        border: none;
+
+
+        .logo{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+        
+            &__picture{
+                width: 50px;
+                height: 50px;
+            }
+
+            &__text{
+                color: $primaryColor;
+                font-family: $primaryFont;
+                font-size: 23px;
+                line-height: 8vh;
+                padding: 15px;
+            }
+    }
+
+    .hamburger{
+        display: none;
+    }
+
+    .form {
+        position: relative;
+        display: flex;
+        color: $primaryColor;
+        justify-content: space-between;
+
+        &__login, &__register {
+            padding: 5px 10px;
+            cursor: pointer;
+            transition: 0.3s;
+
+            a {
+                text-decoration: none;
+                color: $primaryColor;
+            }
+        }
+
+        &__login::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            left: 61px;
+            width: 2px;
+            height: 25px;
+            border-right: 1px solid $primaryColor;
+        }
+
+        &__login:hover, &__register:hover {
+            font-size: 18px
+        }
+
+        &__icon {
+            padding: 0 5px;
+            width: 25px;
+            height: 25px;
+        }
+    }
+       
+    }
+}
+
+@keyframes menuUp {
+    0% {
+        top: 600px;
+    }
+
+    20% {
+       top: 500px;
+    }
+
+    40% {
+        top: 400px;
+    }
+
+    60% {
+        top: 300px;
+    }
+
+    80% {
+        top: 200px;
+    }
+
+    100% {
+        top: 100px;
+    }
+}
+
+
 
