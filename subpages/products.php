@@ -22,31 +22,24 @@
     <nav class="nav">
     </nav>
     <main class="content">
-        <div class="products">
-            <?php
-                include "../phpscripts/databaseConnect.php";
-                while($tab = mysqli_fetch_array($selectProducts)){
-                    echo("
-                        <div class='products__element'>
-                            <h5>".$tab['Name']."</h5>
-                            <img src='../images/products/".$tab['src']."' alt='tree photo'>
-                            <p>".$tab['Price']."</p>
-                        </div>
-                    
-                    ");
-                }
-            ?>
-            <div class="procuts__element">
-                <h5></h5>
+        <div class="content_wrapper">
+            <div class="filter">
+                <form method="GET"></form>
             </div>
-            <div class="procuts__element"></div>
-            <div class="procuts__element"></div>
-            <div class="procuts__element"></div>
-            <div class="procuts__element"></div>
-            <div class="procuts__element"></div>
-            <div class="procuts__element"></div>
-            <div class="procuts__element"></div>
-            <div class="procuts__element"></div>
+            <div class="products">
+                <?php
+                    include "../phpscripts/databaseConnect.php";
+                    while($tab = mysqli_fetch_array($selectProducts)){
+                        echo("
+                            <div class='products__element'>
+                                <h5>".$tab['Name']."</h5>
+                                <img src='../images/products/".$tab['src']."' alt='tree photo'>
+                                <p>".$tab['Price']."</p>
+                            </div>
+                        ");
+                    }
+                ?>
+            </div>
         </div>
     </main>
     <footer class="footer">
