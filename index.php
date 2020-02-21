@@ -12,8 +12,10 @@
 <body>
     <header class="header">
         <div class="logo">
-            <img src="images/logo.png" class="logo__picture" alt="Our brand logo">
-            <h1 class="logo__text">Tree-Store</h1>
+            <a href="index.php">
+                <img src="images/logo.png" class="logo__picture" alt="Our brand logo">
+                <h1 class="logo__text">Tree-Store</h1>
+            </a>
         </div>
         <div class="hamburger">
             <div class="hamburger__menu">
