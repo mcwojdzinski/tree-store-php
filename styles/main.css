@@ -670,6 +670,44 @@ table {
   }
 }
 
+.content__wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 200px auto;
+      grid-template-columns: 200px auto;
+  -webkit-column-gap: 30px;
+          column-gap: 30px;
+}
+
+.content__wrapper .filter {
+  display: block;
+  background-color: lightgreen;
+  border: 1px solid #2B801C;
+  width: 200px;
+  height: 500px;
+}
+
+.content__header {
+  color: #2B801C;
+  font-size: 35px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.content__description {
+  color: #2B801C;
+  font-size: 25px;
+  padding: 20px;
+  letter-spacing: 1px;
+  text-align: justify;
+}
+
+.history__list li {
+  padding: 7px;
+  color: #2B801C;
+  font-size: 20px;
+}
+
 .section {
   width: 100%;
   display: -webkit-box;
@@ -825,6 +863,108 @@ table {
             transform: translateY(0px);
     opacity: 1;
   }
+}
+
+.register__header {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #2B801C;
+}
+
+@media (min-width: 1024px) {
+  .register__header {
+    font-size: 30px;
+  }
+}
+
+.register {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 200px;
+}
+
+.register__element {
+  width: 80%;
+  padding: 15px;
+}
+
+@media (min-width: 1024px) {
+  .register__element {
+    width: 50%;
+  }
+}
+
+.register__element label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 16px;
+  color: #2B801C;
+}
+
+@media (min-width: 1024px) {
+  .register__element label {
+    font-size: 23px;
+  }
+}
+
+.register__element label input {
+  padding: 6px;
+  border: 2px solid darkgreen;
+  border-radius: 10px;
+}
+
+@media (min-width: 1024px) {
+  .register__element label input {
+    width: 30%;
+  }
+}
+
+.register__element label input:focus {
+  outline: none;
+}
+
+.register__button {
+  padding: 10px;
+  width: 60%;
+  margin-top: 15px;
+  background-color: #97FF85;
+  color: darkgreen;
+  text-transform: uppercase;
+  border: 2px solid #2B801C;
+  font-weight: 700;
+  border-radius: 10px;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+@media (min-width: 1024px) {
+  .register__button {
+    width: 20% !important;
+    margin-top: 60px;
+  }
+}
+
+.register__button:hover {
+  background-color: darkgreen;
+  color: #97FF85;
+  border-color: #97FF85;
 }
 
 .footer {
