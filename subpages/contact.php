@@ -30,7 +30,6 @@
                 Poznan, 62-301 <br>
                 Poland                
             </p>
-
             <h3>Email Us</h3>
             <p>
                 tree@store.com               

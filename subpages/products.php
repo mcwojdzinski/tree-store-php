@@ -12,8 +12,10 @@
 <body>
     <header class="header">
         <div class="logo">
-            <img src="../images/logo.png" class="logo__picture" alt="Our brand logo">
-            <h1 class="logo__text">Tree-Store</h1>
+            <a href="../index.php">
+                <img src="../images/logo.png" class="logo__picture" alt="Our brand logo">
+                <h1 class="logo__text">Tree-Store</h1>
+            </a>
         </div>
         <div class="hamburger">
             <img src="../images/hamburger.png" class="hamburger__icon" alt="hamburger-menu">
@@ -21,7 +23,7 @@
     </header>
     <nav class="nav">
     </nav>
-    <main class="content">
+    <main class="content" style="flex-direction: column;">
         <div class="content_wrapper">
             <div class="filter">
                 <form method="GET"></form>
@@ -74,6 +76,7 @@
                 <img src="../images/github.png" alt="github" class="picture">
             </div>
         </div>
+        <p>All rights reserved &copy 2020 Bartosz Hryniewicz & Matuesz Cwojdzinski</p>
     </footer>
 </body>
 </html>

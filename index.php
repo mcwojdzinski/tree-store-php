@@ -12,8 +12,10 @@
 <body>
     <header class="header">
         <div class="logo">
-            <img src="images/logo.png" class="logo__picture" alt="Our brand logo">
-            <h1 class="logo__text">Tree-Store</h1>
+            <a href="index.php">
+                <img src="images/logo.png" class="logo__picture" alt="Our brand logo">
+                <h1 class="logo__text">Tree-Store</h1>
+            </a>
         </div>
         <div class="hamburger">
             <div class="hamburger__menu">
@@ -43,10 +45,10 @@
     <nav class="nav">
         <div class="nav__row">
             <ul class="list">
-                <li class="list__element"><a href="#">Main</a></li>
-                <li class="list__element"><a href="#">Products</a></li>
-                <li class="list__element"><a href="#">About us</a></li>
-                <li class="list__element"><a href="#">Contact</a></li>
+                <li class="list__element"><a href="index.php">Main</a></li>
+                <li class="list__element"><a href="subpages/products.php">Products</a></li>
+                <li class="list__element"><a href="subpages/about.php">About us</a></li>
+                <li class="list__element"><a href="subpages/contact.php">Contact</a></li>
             </ul>
         </div>
     </nav>
