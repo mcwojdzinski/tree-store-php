@@ -24,6 +24,7 @@
     <nav class="nav">
     </nav>
     <main class="content" style="flex-direction: column;">
+
     <h3 class="register__header">Log in</h3>
         <form method="POST" class="register">
             <div class="register__element">

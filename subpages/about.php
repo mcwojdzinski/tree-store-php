@@ -15,6 +15,7 @@
                 <img src="../images/logo.png" class="logo__picture" alt="Our brand logo">
                 <h1 class="logo__text">Tree-Store</h1>
             </a>
+
         </div>
         <div class="hamburger">
             <img src="../images/hamburger.png" class="hamburger__icon" alt="hamburger-menu">
@@ -23,6 +24,7 @@
     <nav class="nav">
     </nav>
     <main class="content" style="flex-direction: column;">
+
         <h1 class="content__header">About us</h1>
         <p class="content__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, dolore porro expedita veniam tempora esse? Esse inventore laboriosam quisquam nulla dolore minima, rerum officiis fugit cum praesentium odio repellendus voluptas!Vero eius vitae, perspiciatis dolor doloremque ad aliquam necessitatibus excepturi quae suscipit eos temporibus earum est placeat molestias inventore blanditiis et? Tenetur facilis, omnis ullam deserunt libero tempora similique nisi!</p>
         <h3 class="content__header">Our history</h3>
