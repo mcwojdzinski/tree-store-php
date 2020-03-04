@@ -455,6 +455,8 @@ table {
   text-transform: uppercase;
   border: 2px solid #2B801C;
   font-weight: 700;
+}
+
 .form .register__form .form__submit {
   font-size: 15px;
   width: 50%;
