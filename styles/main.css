@@ -342,144 +342,9 @@ table {
           box-sizing: border-box;
   width: 100%;
   height: 10vh;
+  padding: 10px 20px;
   background-color: #2B801C;
   margin-top: calc(8vh + 20px);
-}
-
-.contact {
-  margin: 10px;
-  color: #2B801C;
-}
-
-.contact h3 {
-  text-transform: uppercase;
-  font-size: 20px;
-  display: block;
-  margin-bottom: 10px;
-  font-weight: 700;
-}
-
-.contact h3:nth-of-type(2) {
-  margin-top: 15px;
-}
-
-.contact p {
-  font-size: 16px;
-
-  padding: 10px 20px;
-  background-color: #2B801C !important;
-  margin-top: 15vh;
-}
-
-.register__header {
-  font-size: 20px;
-  margin-bottom: 10px;
-  color: #2B801C;
-}
-
-@media (min-width: 1024px) {
-  .register__header {
-    font-size: 30px;
-  }
-}
-
-.register {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  justify-items: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-bottom: 200px;
-}
-
-.register__element {
-  width: 80%;
-  padding: 15px;
-}
-
-@media (min-width: 1024px) {
-  .register__element {
-    width: 50%;
-  }
-}
-
-.register__element label {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-size: 16px;
-  color: #2B801C;
-}
-
-@media (min-width: 1024px) {
-  .register__element label {
-    font-size: 23px;
-  }
-}
-
-.register__element label input {
-  padding: 6px;
-  border: 2px solid darkgreen;
-  border-radius: 10px;
-}
-
-@media (min-width: 1024px) {
-  .register__element label input {
-    width: 30%;
-  }
-}
-
-.register__element label input:focus {
-  outline: none;
-}
-
-.register__button {
-  padding: 10px;
-  width: 60%;
-  margin-top: 15px;
-  background-color: #97FF85;
-  color: darkgreen;
-  text-transform: uppercase;
-  border: 2px solid #2B801C;
-  font-weight: 700;
-.form .register__form .form__submit {
-  font-size: 15px;
-  width: 50%;
-  text-align: center;
-  margin: 5% auto;
-  padding: 7px;
-
-  background-color: #2B801C;
-  color: #97FF85;
-  border: 1px solid #97FF85;
-  border-radius: 10px;
-  -webkit-transition: 0.3s linear;
-  transition: 0.3s linear;
-}
-
-@media (min-width: 1024px) {
-  .register__button {
-    width: 20% !important;
-  }
-}
-
-.register__button:hover {
-  background-color: darkgreen;
-  color: #97FF85;
-  border-color: #97FF85;
 }
 
 .nav__row {
@@ -579,6 +444,108 @@ table {
   100% {
     width: 100%;
   }
+}
+
+.register__header {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #2B801C;
+}
+
+@media (min-width: 1024px) {
+  .register__header {
+    font-size: 30px;
+  }
+}
+
+.register {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 200px;
+}
+
+.register__element {
+  width: 80%;
+  padding: 15px;
+}
+
+@media (min-width: 1024px) {
+  .register__element {
+    width: 50%;
+  }
+}
+
+.register__element label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 16px;
+  color: #2B801C;
+}
+
+@media (min-width: 1024px) {
+  .register__element label {
+    font-size: 23px;
+  }
+}
+
+.register__element label input {
+  padding: 6px;
+  border: 2px solid darkgreen;
+  border-radius: 10px;
+}
+
+@media (min-width: 1024px) {
+  .register__element label input {
+    width: 30%;
+  }
+}
+
+.register__element label input:focus {
+  outline: none;
+}
+
+.register__button {
+  padding: 10px;
+  width: 60%;
+  margin-top: 15px;
+  background-color: #97FF85;
+  color: darkgreen;
+  text-transform: uppercase;
+  border: 2px solid #2B801C;
+  font-weight: 700;
+  border-radius: 10px;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+@media (min-width: 1024px) {
+  .register__button {
+    width: 20% !important;
+    margin-top: 60px;
+  }
+}
+
+.register__button:hover {
+  background-color: darkgreen;
+  color: #97FF85;
+  border-color: #97FF85;
 }
 
 .content {
@@ -843,6 +810,34 @@ table {
   font-size: 20px;
 }
 
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 40vh;
+  margin-top: -50px;
+}
+
+.contact__address {
+  font-size: 25px;
+  color: #2B801C;
+  margin: 10px 0;
+}
+
+.contact__content {
+  padding: 10px;
+  font-size: 20px;
+  line-height: 1.2;
+  margin: 5px 0 5px 50px;
+}
+
 .section {
   width: 100%;
   display: -webkit-box;
@@ -992,6 +987,7 @@ table {
     -webkit-transition: 0.3s;
     transition: 0.3s;
     cursor: pointer;
+    outline: none;
   }
   .section .article:hover > .article__button {
     -webkit-transform: translateY(0px);

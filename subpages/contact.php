@@ -12,8 +12,10 @@
 <body>
     <header class="header">
         <div class="logo">
+        <a href="../index.php">
             <img src="../images/logo.png" class="logo__picture" alt="Our brand logo">
             <h1 class="logo__text">Tree-Store</h1>
+        </a>
         </div>
         <div class="hamburger">
             <img src="../images/hamburger.png" class="hamburger__icon" alt="hamburger-menu">
@@ -23,15 +25,13 @@
     </nav>
     <main class="content">
         <div class="contact">
-            <h3>Adress</h3>
-            <p>
-                Tree store
-                ul. Przelajowa 12 <br>
-                Poznan, 62-301 <br>
-                Poland                
+            <h3 class="contact__address">Adress</h3>
+            <p class="contact__content"> Treestore ul. Przelajowa 12<br/>
+            Poznan, 62-301<br/>
+            Poland
             </p>
-            <h3>Email Us</h3>
-            <p>
+            <h3 class="contact__address">Email Us</h3>
+            <p class="contact__content">
                 tree@store.com               
             </p>
         </div>
