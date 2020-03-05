@@ -53,17 +53,17 @@
         </div>
     </main>
     <footer class="footer">
-        <div class="info">
+    <div class="info">
             <div class="info__row">
                 <ul class="list">
-                    <l1 class="list__element">Main</l1>
-                    <l1 class="list__element">Products</l1>
+                    <l1 class="list__element"><a href="../index.php">Main</a></l1>
+                    <l1 class="list__element"><a href="products.php">Products</a></l1>
                 </ul>
             </div>
             <div class="info__row">
                 <ul class="list">
-                    <li class="list__element">About us</li>
-                    <li class="list__element">Contact</li>
+                    <li class="list__element"><a href="about.php">About us</a></li>
+                    <li class="list__element"><a href="contact.php">Contact</a></li>
                 </ul>
             </div>
         </div>

@@ -1121,6 +1121,22 @@ table {
   padding: 5px;
 }
 
+.footer .info__row .list__element a {
+  text-decoration: none;
+  color: #97FF85;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.footer .info__row .list__element a:visited {
+  text-decoration: none;
+  color: #97FF85;
+}
+
+.footer .info__row .list__element a:hover {
+  font-weight: 600;
+}
+
 .footer .media {
   display: -webkit-box;
   display: -ms-flexbox;

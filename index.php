@@ -70,23 +70,23 @@
         </div>
         <div class="textButton">
             <h1 class="textButton__text">see more offers</h1>
-            <button class="textButton__button"><span><a href="subpages/">Here</a></span></button>
+            <button class="textButton__button"><span><a href="subpages/products.php">Here</a></span></button>
         </div>
     </main>
     <section class="section">
         <article class="article">
-            <a href="#" class="article__title">Article1</a>
-            <p class="article__content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae cum suscipit officiis nisi quibusdam? Animi.</p>
+            <p class="article__title">The Oldest Bonsai in the World</p>
+            <p class="article__content">Estimated at well over 1000 years old, the Ficus retusa Linn in Italy is said to be the oldest living Bonsai tree today. It lives at the Crespi Bonsai Museum and is an incredible example of what can be achieved over such a long time frame.</p>
             <button class="article__button">read more</button>
         </article>
         <article class="article">
-            <a href="#" class="article__title">Article1</a>
-            <p class="article__content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae cum suscipit officiis nisi quibusdam? Animi.</p>
+            <p class="article__title">The Most Expensive Bonsai Tree in the World</p>
+            <p class="article__content">The most expensive Bonsai tree ever was sold for $1.3 million USD at the International Bonsai Convention in Takamatsu, Japan. It was a 300 year old white pine of exceptional size and quality.</p>
             <button class="article__button">read more</button>
         </article>
         <article class="article">
-            <a href="#" class="article__title">Article1</a>
-            <p class="article__content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae cum suscipit officiis nisi quibusdam? Animi.</p>
+            <p class="article__title">Bonsai Trees can Produce Fruit</p>
+            <p class="article__content">Many people still don’t believe this one until they actually see it in the flesh. As it is possible to make a Bonsai from almost any tree or shrub, it stands to reason that a fruit bearing tree would fit the criteria.</p>
             <button class="article__button">read more</button>
         </article>
     </section>
@@ -94,14 +94,14 @@
         <div class="info">
             <div class="info__row">
                 <ul class="list">
-                    <l1 class="list__element">Main</l1>
-                    <l1 class="list__element">Products</l1>
+                    <l1 class="list__element"><a href="index.php">Main</a></l1>
+                    <l1 class="list__element"><a href="subpages/products.php">Products</a></l1>
                 </ul>
             </div>
             <div class="info__row">
                 <ul class="list">
-                    <li class="list__element">About us</li>
-                    <li class="list__element">Contact</li>
+                    <li class="list__element"><a href="subpages/about.php">About us</a></li>
+                    <li class="list__element"><a href="subpages/contact.php">Contact</a></li>
                 </ul>
             </div>
         </div>
