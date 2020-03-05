@@ -22,6 +22,14 @@
         </div>
     </header>
     <nav class="nav">
+        <div class="nav__row">
+            <ul class="list">
+                <li class="list__element"><a href="../index.php">Main</a></li>
+                <li class="list__element"><a href="products.php">Products</a></li>
+                <li class="list__element"><a href="about.php">About us</a></li>
+                <li class="list__element"><a href="contact.php">Contact</a></li>
+            </ul>
+        </div>
     </nav>
     <main class="content" style="flex-direction: column;">
         <div class="content_wrapper">

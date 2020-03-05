@@ -810,34 +810,6 @@ table {
   font-size: 20px;
 }
 
-.contact {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 40vh;
-  margin-top: -50px;
-}
-
-.contact__address {
-  font-size: 25px;
-  color: #2B801C;
-  margin: 10px 0;
-}
-
-.contact__content {
-  padding: 10px;
-  font-size: 20px;
-  line-height: 1.2;
-  margin: 5px 0 5px 50px;
-}
-
 .section {
   width: 100%;
   display: -webkit-box;
