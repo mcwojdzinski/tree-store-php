@@ -70,7 +70,7 @@
         </div>
         <div class="textButton">
             <h1 class="textButton__text">see more offers</h1>
-            <button class="textButton__button"><span><a href="subpages/">Here</a></span></button>
+            <button class="textButton__button"><span><a href="subpages/products.php">Here</a></span></button>
         </div>
     </main>
     <section class="section">
