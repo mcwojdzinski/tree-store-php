@@ -530,19 +530,6 @@ table {
   text-transform: uppercase;
   border: 2px solid #2B801C;
   font-weight: 700;
-
-}
-
-.form .register__form .form__submit {
-  font-size: 15px;
-  width: 50%;
-  text-align: center;
-  margin: 5% auto;
-  padding: 7px;
-
-  background-color: #2B801C;
-  color: #97FF85;
-  border: 1px solid #97FF85;
   border-radius: 10px;
   -webkit-transition: 0.3s linear;
   transition: 0.3s linear;
@@ -821,34 +808,6 @@ table {
   padding: 7px;
   color: #2B801C;
   font-size: 20px;
-}
-
-.contact {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 40vh;
-  margin-top: -50px;
-}
-
-.contact__address {
-  font-size: 25px;
-  color: #2B801C;
-  margin: 10px 0;
-}
-
-.contact__content {
-  padding: 10px;
-  font-size: 20px;
-  line-height: 1.2;
-  margin: 5px 0 5px 50px;
 }
 
 .section {
