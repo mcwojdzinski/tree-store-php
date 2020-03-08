@@ -94,14 +94,14 @@
         <div class="info">
             <div class="info__row">
                 <ul class="list">
-                    <l1 class="list__element">Main</l1>
-                    <l1 class="list__element">Products</l1>
+                    <li class="list__element"><a href="index.php">Main</a></li>
+                    <li class="list__element"><a href="subpages/products.php">Products</a></li>
                 </ul>
             </div>
             <div class="info__row">
                 <ul class="list">
-                    <li class="list__element">About us</li>
-                    <li class="list__element">Contact</li>
+                    <li class="list__element"><a href="subpages/about.php">About us</a></li>
+                    <li class="list__element"><a href="subpages/contact.php">Contact</a></li>
                 </ul>
             </div>
         </div>

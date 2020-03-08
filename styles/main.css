@@ -1314,7 +1314,8 @@ table {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .footer .info, .footer .media {
+  .footer .info,
+  .footer .media {
     width: 50%;
   }
   .footer .info {
@@ -1345,7 +1346,20 @@ table {
   }
   .footer .info__row .list__element {
     padding: 7px 5px;
-    font-size: 0.9rem;
+    font-size: 1rem;
+  }
+  .footer .info__row .list__element a {
+    text-decoration: none;
+    color: #97FF85;
+    -webkit-transition: 0.3s linear;
+    transition: 0.3s linear;
+  }
+  .footer .info__row .list__element a:visited, .footer .info__row .list__element a:active {
+    text-decoration: none;
+    color: #97FF85;
+  }
+  .footer .info__row .list__element a:hover {
+    font-weight: 600;
   }
   .footer .info__row .list__element:hover {
     color: #9FFFAF;
