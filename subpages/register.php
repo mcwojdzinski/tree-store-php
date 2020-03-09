@@ -81,8 +81,8 @@
         <div class="info">
             <div class="info__row">
                 <ul class="list">
-                    <l1 class="list__element"><a href="../index.php">Main</a></l1>
-                    <l1 class="list__element"><a href="products.php">Products</a></l1>
+                    <li class="list__element"><a href="../index.php">Main</a></li>
+                    <li class="list__element"><a href="products.php">Products</a></li>
                 </ul>
             </div>
             <div class="info__row">

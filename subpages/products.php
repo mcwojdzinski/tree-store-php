@@ -31,33 +31,34 @@
             </ul>
         </div>
     </nav>
-    <main class="content" style="flex-direction: column;">
-        <div class="content_wrapper">
-            <div class="filter">
-                <form method="GET"></form>
-            </div>
+    <main class="content" >
             <div class="products">
                 <?php
                     include "../phpscripts/databaseConnect.php";
                     while($tab = mysqli_fetch_array($selectProducts)){
                         echo("
                             <div class='products__element'>
-                                <h5>".$tab['Name']."</h5>
                                 <img src='../images/products/".$tab['src']."' alt='tree photo'>
-                                <p>".$tab['Price']."</p>
+                                <div class='description'>
+                                    <h5 class='description__title'>".$tab['Name']."</h5>
+                                    <p class='description__paragraph'>".$tab['Description']."</p>
+                                </div>
+                                <div class='price'>
+                                    <p class='price__number'>".$tab['Price']." zł</p>
+                                    <button class='price__button'>Add to koszyk</button>
+                                </div>  
                             </div>
                         ");
                     }
                 ?>
             </div>
-        </div>
     </main>
     <footer class="footer">
     <div class="info">
             <div class="info__row">
                 <ul class="list">
-                    <l1 class="list__element"><a href="../index.php">Main</a></l1>
-                    <l1 class="list__element"><a href="products.php">Products</a></l1>
+                    <li class="list__element"><a href="../index.php">Main</a></li>
+                    <li class="list__element"><a href="products.php">Products</a></li>
                 </ul>
             </div>
             <div class="info__row">
