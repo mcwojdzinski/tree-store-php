@@ -124,5 +124,6 @@
         </div>
         <p>All rights reserved &copy 2020 Bartosz Hryniewicz & Matuesz Cwojdzinski</p>
     </footer>
+    <script src="https://skrypt-cookies.pl/id/10783ed675bdb7cf.js"></script>
 </body>
 </html>
