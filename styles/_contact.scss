@@ -1,0 +1,21 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 40vh;
+    margin-top: -50px;
+
+        &__address {
+            font-size: 25px;
+            color: $primaryColor;
+            margin: 10px 0;
+        }
+
+        &__content {
+            padding: 10px;
+            font-size: 20px;
+            line-height: 1.2;
+            margin: 5px 0 5px 50px;
+
+        }
+}

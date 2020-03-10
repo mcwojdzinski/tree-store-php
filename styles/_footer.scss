@@ -6,7 +6,7 @@
     flex-direction: column;
     align-items: center;
 
-    .info{
+    .info {
 
         display: flex;
         margin: 20px 0 0 0;
@@ -26,6 +26,21 @@
                 &__element {
                     font-size: 20px;
                     padding: 5px;
+
+                    a{
+                        text-decoration: none;
+                        color: $fontColor;
+                        transition: 0.3s;
+
+                        &:visited{
+                            text-decoration: none;
+                            color: $fontColor;
+                        }
+
+                        &:hover{
+                            font-weight: 600;
+                        }
+                    }
                 }
             }
         }
@@ -39,8 +54,8 @@
         justify-content: center;
         border-bottom: 2px solid $fontColor;
         padding: 30px 20px 20px 20px;
-        
-        
+
+
 
         &__element {
             display: flex;
@@ -55,7 +70,8 @@
 
             .picture {
                 width: 20px;
-                height: 20px;;
+                height: 20px;
+                ;
             }
         }
     }
@@ -74,34 +90,34 @@
 
         height: 45vh;
 
-        .info{
+        .info {
 
             margin: 40px 0 0 0;
-    
+
             &__row {
                 padding: 10px;
                 margin: 0 40px;
-    
+
                 .list {
-    
+
                     &__element {
                         font-size: 30px;
                         padding: 10px;
                     }
                 }
             }
-    
+
         }
-    
+
         .media {
             padding: 80px 40px 40px 40px;
-            
-             &__element {
+
+            &__element {
                 width: 30px;
                 height: 30px;
                 padding: 20px;
                 margin: 10px;
-    
+
                 .picture {
                     width: 30px;
                     height: 30px;
@@ -126,30 +142,48 @@
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        
-        .info, .media {
+
+        .info,
+        .media {
             width: 50%;
         }
 
-        .info{
-    
+        .info {
+
             display: flex;
-            margin:  5vh 0 0;
+            margin: 5vh 0 0;
             flex-direction: row;
             justify-content: space-around;
-    
+
             &__row {
                 color: $fontColor;
                 padding: 10px;
-    
+
                 .list {
                     display: flex;
                     flex-direction: column;
                     list-style-type: none;
-    
+
                     &__element {
                         padding: 7px 5px;
-                        font-size: 0.9rem;
+                        font-size: 1rem;
+
+
+                        a {
+                            text-decoration: none;
+                            color: $fontColor;
+                            transition: 0.3s linear;
+
+                            &:visited,
+                            &:active {
+                                text-decoration: none;
+                                color: $fontColor;
+                            }
+
+                            &:hover {
+                                font-weight: 600;
+                            }
+                        }
                     }
 
                     &__element:hover {
@@ -157,9 +191,9 @@
                     }
                 }
             }
-    
+
         }
-    
+
         .media {
             display: flex;
             flex-direction: row;
@@ -168,9 +202,9 @@
             border: none;
             margin: 5vh 0 0;
             padding: 0;
-            
-            
-    
+
+
+
             &__element {
                 display: flex;
                 justify-content: center;
@@ -182,10 +216,11 @@
                 margin: 5px;
                 background-color: $fontColor;
                 cursor: pointer;
-    
+
                 .picture {
                     width: 18px;
-                    height: 18px;;
+                    height: 18px;
+
                 }
 
                 &:hover {
@@ -193,8 +228,8 @@
                 }
             }
         }
-    
-        p { 
+
+        p {
             width: 100%;
             text-align: center;
             padding: 5px 20px;
@@ -203,6 +238,6 @@
             color: $fontColor;
             font-size: 10px;
         }
-    
+
     }
 }

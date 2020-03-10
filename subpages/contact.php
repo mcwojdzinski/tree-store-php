@@ -12,26 +12,34 @@
 <body>
     <header class="header">
         <div class="logo">
+        <a href="../index.php">
             <img src="../images/logo.png" class="logo__picture" alt="Our brand logo">
             <h1 class="logo__text">Tree-Store</h1>
+        </a>
         </div>
         <div class="hamburger">
             <img src="../images/hamburger.png" class="hamburger__icon" alt="hamburger-menu">
         </div>
     </header>
     <nav class="nav">
+        <div class="nav__row">
+            <ul class="list">
+                <li class="list__element"><a href="../index.php">Main</a></li>
+                <li class="list__element"><a href="products.php">Products</a></li>
+                <li class="list__element"><a href="about.php">About us</a></li>
+                <li class="list__element"><a href="contact.php">Contact</a></li>
+            </ul>
+        </div>
     </nav>
     <main class="content">
         <div class="contact">
-            <h3>Adress</h3>
-            <p>
-                Tree store
-                ul. Przelajowa 12 <br>
-                Poznan, 62-301 <br>
-                Poland                
+            <h3 class="contact__address">Adress</h3>
+            <p class="contact__content"> Treestore ul. Przelajowa 12<br/>
+            Poznan, 62-301<br/>
+            Poland
             </p>
-            <h3>Email Us</h3>
-            <p>
+            <h3 class="contact__address">Email Us</h3>
+            <p class="contact__content">
                 tree@store.com               
             </p>
         </div>
@@ -40,14 +48,14 @@
         <div class="info">
             <div class="info__row">
                 <ul class="list">
-                    <l1 class="list__element">Main</l1>
-                    <l1 class="list__element">Products</l1>
+                    <li class="list__element"><a href="../index.php">Main</a></li>
+                    <li class="list__element"><a href="products.php">Products</a></li>
                 </ul>
             </div>
             <div class="info__row">
                 <ul class="list">
-                    <li class="list__element">About us</li>
-                    <li class="list__element">Contact</li>
+                    <li class="list__element"><a href="about.php">About us</a></li>
+                    <li class="list__element"><a href="contact.php">Contact</a></li>
                 </ul>
             </div>
         </div>
