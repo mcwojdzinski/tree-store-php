@@ -26,6 +26,21 @@
                 &__element {
                     font-size: 20px;
                     padding: 5px;
+
+                    a{
+                        text-decoration: none;
+                        color: $fontColor;
+                        transition: 0.3s;
+
+                        &:visited{
+                            text-decoration: none;
+                            color: $fontColor;
+                        }
+
+                        &:hover{
+                            font-weight: 600;
+                        }
+                    }
                 }
             }
         }

@@ -54,7 +54,7 @@
             </div>
     </main>
     <footer class="footer">
-        <div class="info">
+    <div class="info">
             <div class="info__row">
                 <ul class="list">
                     <li class="list__element"><a href="../index.php">Main</a></li>

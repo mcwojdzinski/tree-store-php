@@ -34,7 +34,7 @@
     <main class="content" style="flex-direction: column;">
 
     <h3 class="register__header">Log in</h3>
-        <form method="POST" class="register">
+        <form method="POST" class="register" action="../index.php">
             <div class="register__element">
                 <label for="login">Login:
                 <input type="text" name="login" id="login" required>
@@ -48,9 +48,10 @@
             </div>
             <button type="submit" style="width: 50%;"class="register__button">Log In</button>
         </form>
+        <?php include("../phpscripts/checkLogin.php"); ?>
     </main>
     <footer class="footer">
-        <div class="info">
+    <div class="info">
             <div class="info__row">
                 <ul class="list">
                     <li class="list__element"><a href="../index.php">Main</a></li>
