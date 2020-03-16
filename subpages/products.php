@@ -46,7 +46,7 @@
                                 </div>
                                 <div class='price'>
                                     <p class='price__number'>".$tab['Price']." zł</p>
-                                    <button class='price__button'>Add to koszyk</button>
+                                    <button class='price__button'>Add to basket</button>
                                 </div>  
                             </div>
                         ");
